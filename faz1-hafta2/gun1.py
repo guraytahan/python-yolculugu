@@ -161,7 +161,7 @@ while(True):
     kelimeler = cumle.split()
     sayac = {}       # bos bir dict açtık
     for a in kelimeler:
-        sayac[a] = sayac.get(a,0)+1         #kelime sayma düzenimiz 
+        sayac[a] = sayac.get(a,0)+1         #kelime sayma düzenimiz
     benzersiz = set(sayac)
     print("KELİME FREKANSLARI")
     for kelime,adet in sayac.items():
