@@ -109,7 +109,7 @@ while True:
     elif secim == "3":
         if not alisveris_listesi:
             print("Listeniz boş. ")
-    
+
         for i,urun in enumerate(alisveris_listesi,start = 1):
             print(f"{i}. {urun}")
     elif secim == "4":
