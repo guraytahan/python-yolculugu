@@ -8,7 +8,7 @@
 
 # Niyet beyanı: "Bu veri sabittir, kimse ellemesin." Koordinat (41.0, 28.9), RGB renk (255, 0, 0) — bunların 3. elemanı sonradan eklenmez, doğaları gereği sabit paketlerdir.
 # Güvenlik: Yanlışlıkla değiştirmeye çalışırsan Python seni hatayla uyarır. Mutable-immutable ayrımını Gün 5'te listelerle konuşmuştuk — tuple, immutable takımın kaptanı (string gibi).
-# Python'un kendisi her yerde kullanıyor: Dün sayac.items() çıktısındaki parantezli çiftler vardı ya — REPL deneyinde sorduğum "bu parantezler ne?" sorusunun cevabı: onlar tuple'dı. items() sana (anahtar, değer) tuple'ları veriyor.
+# Python'un kendisi her yerde kullanıyveriyoror: Dün sayac.items() çıktısındaki parantezli çiftler vardı ya — REPL deneyinde sorduğum "bu parantezler ne?" sorusunun cevabı: onlar tuple'dı. items()s ana (anahtar, değer) tuple'ları .
 
 
 # -- unpacking : paketi açmak
@@ -118,13 +118,38 @@
 
 
 #görev b
-urunler = ["ekmek","süt","yumurta","peynir"]
-fiyatlar = [15,40,60,120]
-for urun,fiyat in zip(urunler,fiyatlar):
- print(f"{urun} --> {fiyat}")                   # ürün fiyat eşleştirmesi
-print(dict(zip(urunler,fiyatlar)))
-elliler = {urune: fiyate for urune,fiyate in zip(urunler,fiyatlar) if fiyate>50 }
-print(elliler)
+# urunler = ["ekmek","süt","yumurta","peynir"]
+# fiyatlar = [15,40,60,120]
+# for urun,fiyat in zip(urunler,fiyatlar):
+#  print(f"{urun} --> {fiyat}")                   # ürün fiyat eşleştirmesi
+# print(dict(zip(urunler,fiyatlar)))
+# elliler = {urune: fiyate for urune,fiyate in zip(urunler,fiyatlar) if fiyate>50 }
+# print(elliler)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
